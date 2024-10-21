@@ -10,7 +10,7 @@ nadpis.className = "news__title"
 nadpis.textContent = "Aktuální novinky"
 
 const zprava1 = document.querySelector("#zprava1")
-zprava1.className = "post--main"
+zprava1.classList.add("post--main")
 
 document.querySelector("#zprava3 img").src = images/zprava3-novy.jpg 
 
